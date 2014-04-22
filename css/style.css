@@ -1,12 +1,19 @@
-img{
-  width: 400px;
-}
 
 img{
 	width:400px;
 }
 h1{
-	color: pink;
+	color: red;
 	font-family: 'Tangerine', serif;
-    font-size: 48px;
+    font-size: 35px;
       }
+
+h2{
+	color: hotpink;
+}
+link}
+
+h2{
+	color: Hotpink;
+	font-family: 'Raleway', 'sans-serif;
+    font-size: 48px;
