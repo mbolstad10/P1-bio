@@ -1,22 +1,134 @@
 
-img{
-	width:400px;
+body {
+   width: 800px;
+   margin: 0 auto;
+  font-size: 1em%;
+
 }
-h1{
-	color: red;
-	font-family: 'Tangerine' serif;
-    font-size: 35px;
-      }
+
+
+div{
+  width:100%;
+  height: 100%;
+  float: center;
+  
+}
+
+
+img{
+	width:100%;
+
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  
+}
+ h1:hover {
+  background:  #66FFCC;
+  font-size: 5em;
+  color: white;
+}
 
 
 h2 {
-	color: Hotpink;
-	font-family: 'Raleway' sans-serif;
-    font-size: 48px;
-
+	font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  text-align: center;
+ color:  #66FFCC;
 }
 
 p {
-	font-family: 'Tangerine' serif;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	float: center;
 
 }
+nav li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  padding-left: 10%;
+  display: inline;
+  float: center;
+  list-style: none;
+  margin: 0 5% 0 5%;
+  text-align: center;
+  
+}
+
+
+nav a:link, 
+nav a:visited {
+  color: #333;
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover, 
+nav a:active {
+  color: #FF6600;
+  text-transform: -3px;
+  letter-spacing: 1em;
+  font-size: .5em;
+}
+
+
+
+
+
+
+@media screen and (max-width:1260px) and (min-width: 1200px) {
+ 
+}
+
+/* =========
+destop 
+========= */
+
+@media screen and (max-width: 1000px){
+ 
+}
+
+/* =========
+tablet
+========= */
+
+@media screen and (max-width: 800px){
+  
+
+      h1 h2{
+      	width: 50%;
+      	font-size: 2em;
+      }
+
+      h1:hover {
+  background:  #66FFCC;
+  font-size: 3em;
+  color: white;
+}
+
+img{
+	width: 70%;
+	padding-left: 15%;
+}
+p{
+	width: 40%;
+	padding-left: 35%;
+}
+
+
+
+}
+
+
+/* =========
+mobile
+========= */
+@media screen and (max-width: 480px){
+ 
+
+  }
